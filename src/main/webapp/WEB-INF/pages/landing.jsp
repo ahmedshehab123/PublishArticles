@@ -18,10 +18,10 @@
         <link rel="apple-touch-icon" href="/bootstrap/img/apple-touch-icon.png">
         <link rel="apple-touch-icon" sizes="72x72" href="/bootstrap/img/apple-touch-icon-72x72.png">
         <link rel="apple-touch-icon" sizes="114x114" href="/bootstrap/img/apple-touch-icon-114x114.png">    
-                <link href="/PublishArticles/resources/css/styles.css" rel="stylesheet">
-       <script type="text/javascript" src="/PublishArticles/resources/scripts/ajax.js"></script>
-       <script type="text/javascript" src="/PublishArticles/resources/lib/jquery-1.11.0.min.js"></script>
-       <script type="text/javascript" src="/PublishArticles/resources/scripts/hidenItems.js"></script>
+        <link href="/PublishArticles/resources/css/styles.css" rel="stylesheet">
+        <script type="text/javascript" src="/PublishArticles/resources/scripts/ajax.js"></script>
+        <script type="text/javascript" src="/PublishArticles/resources/lib/jquery-1.12.3.min.js"></script>
+        <script type="text/javascript" src="/PublishArticles/resources/scripts/hidenItems.js"></script>
     </head>
     
 
@@ -94,7 +94,7 @@
                         <a href="#"><span class="badge">badge</span></a>
                       </li>
                     </ul>
-                    <c:if test="${sessionScope.userlogin.id !=null }">
+                    <c:if test="${sessionScope.userlogin.id !=null }"> 
                     <ul class="nav navbar-nav navbar-right">
                       <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="glyphicon glyphicon-user"></i></a>
@@ -106,7 +106,7 @@
                           <li><a href="logout">Log out</a></li>
                         </ul>
                       </li>
-                    </ul></c:if>
+                    </ul> </c:if> 
                   	</nav>
                 </div>
                 <!-- /top nav -->
@@ -315,14 +315,17 @@
   </div>
 </div>
         
-        <script type='text/javascript' src="/PublishArticles/resources/lib/jquery.min.js"></script>
-
-
+        <script type='text/javascript' src="/PublishArticles/resources/lib/jquery-1.12.3.min.js"></script>
         <script type='text/javascript' src="/PublishArticles/resources/lib/bootstrap.min.js"></script>
 
 
 
+<!--         <script type='text/javascript' src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+ -->
 
+<!--         <script type='text/javascript' src="//netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js"></script>
+ -->
+ 
 
 
         
